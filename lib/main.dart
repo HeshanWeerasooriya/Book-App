@@ -37,7 +37,7 @@ class _FireBookState extends State<FireBook> {
 
   String firestoreCollectionName = "Books";
 
-  Book currentBook; //Create object from Book class
+  Book currentBook; //Book that ready to update
 
   getAllBooks() {
     return FirebaseFirestore.instance
